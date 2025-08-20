@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Practice</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="sec.html">2nd Page</a>
+            <a href="sec.html" target="_blank">2nd Page with new window</a>
+            <a href="#section">Section in this page</a>
+        </nav>
+    </header>
+    <h1>Hello</h1>
+    <h2>Hello</h2>
+    <h3>Hello</h3>
+    <h4>Hello</h4>
+    <h5>Hello</h5>
+    <h6>Hello</h6>
+    <p>Paragraph Tag</p>
+    <strong>Strong Text</strong>
+    <b>Bold Text</b>
+    <p>Fruits</p>
+    <ol>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Banana</li>
+        <li>Mango</li>
+    </ol>
+    <p>Cars</p>
+    <ul>
+        <li>BMW</li>
+        <li>Mercedes</li>
+        <li>Ferrari</li>
+        <li>Lamborghini</li>
+    </ul>
+    <img src="cat.jpeg" alt="cat" height="100">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8yF8wtJZJJ8?si=4RVY7qgDTVruIsEw"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- CAN'T REMEMBER -->
+    <h3>Audio</h3>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <p>a<sup>2</sup>+ b<sup>2</sup></p>
+    <p>H<sub>2</sub>O </p>
+    <hr>
+    <h2>Table</h2>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Fatima</td>
+                <td>Mathematics</td>
+                <td>98</td>
+
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Fatima</td>
+                <td>Mathematics</td>
+                <td>98</td>
+
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Fatima</td>
+                <td>Mathematics</td>
+                <td>98</td>
+
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Fatima</td>
+                <td>Mathematics</td>
+                <td>98</td>
+
+            </tr>
+             </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total Marks</td>
+                <td colspan="2">99</td>
+            </tr>
+        </tfoot>
+    </table>
+    <h2>Registration Form </h2>
+    <form action="" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="username" placeholder="Enter your Name"> <br> <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="useremail"> <br> <br>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="userpass"> <br> <br>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="userage">
+        <!-- CORRECTION NEEDED -->
+        <!-- need practice more -->
+         <section id="section"></section>
+        <p>Gender</p>
+        <label>
+            <input type="radio" id="male" name="gender" value="Male" checked>
+            Male
+        </label>
+        <label>
+            <input type="radio" id="female" name="gender" value="Female">
+            Female
+        </label>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Choose the Devices You have:</legend>
+            <label>
+                <input type="checkbox" name="Device" value="Phone" checked>
+                I have a Phone
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"name="Device" value="Tablet" >
+                I have a Tablet
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="Device" value="Laptop" >
+                I have a Laptop
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"name="Device" value="PC" >
+                I have a PC
+            </label>
+        </fieldset>
+        <br>
+        <br>
+        <label for="cars">Choose a Car</label>
+        <select name="cars" id="cars">
+            <optgroup label="German Cars">
+                <option value="BMW" selected>BMW</option>
+                <option value="Mercedes">Mercedes</option>
+            </optgroup>
+            <optgroup label="Italian Cars">
+                <option value="Ferrari">Ferrari</option>
+                <option value="Lamborghini">Lamborghini</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+        <label for="color">Choose a Color</label>
+        <input type="color" id="color" name="usercolor" value="#ffc0cb">
+        <br>
+        <br>
+        <label for="date">Date</label>
+        <input type="date" id="date" name="userdate">
+        <br>
+        <br>
+        <label for="dateTime">Date and Time</label>
+        <input type="datetime-local" id="dateTime" name="userdateTime">
+        <br>
+        <br>
+        <label for="range">Range</label>
+        <input type="range" id="range" name="userrange" value="0">
+        <br>
+        <br>
+        <label for="file">Upload a File</label>
+        <input type="file" id="file" name="upload" accept="image/*">
+        <br>
+        <br>
+        <input type="submit">
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>

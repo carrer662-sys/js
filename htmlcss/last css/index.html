@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            position: relative;
+            /* transition-property:all;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 1s; */
+            /* transition:all 2s ease-in-out 1s ; */
+            /* transform: rotate(45deg); */
+            /* rotate: z 90deg; */
+            /* animation-name: animate;
+            animation-duration: 2s; */
+            /* animation-timing-function: ease-in; */
+            /* animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate; */
+            animation: animate 2s 0s infinite alternate;
+/* transition: all 2s ease-in; */
+        }
+        /* @media(width : 600px){
+            div{
+                background-color: blanchedalmond;
+            }
+        }
+        @media(max-width : 600px){
+            div{
+                background-color: rgb(5, 173, 173);
+            }
+        }
+        @media(min-width :  200px) and (max-width : 300px){
+            div{
+                background-color: chartreuse;
+            } */
+        /* } */
+        @keyframes animate{
+            from {left:0px;} to {left:200px;}
+            /* from{background-color: aqua;}
+            to {background-color: brown;} */
+        }
+/* 
+div:hover{
+    background-color: rgb(0, 130, 243);
+    color: aliceblue;
+    font-size: 22px; */
+    /* transform:scale(2, 1); */
+    /* transform: translate(20px, 50px); */
+    /* transform: skew(90deg);
+} */
+/* div:active{
+    background-color: palevioletred;
+} */
+
+    </style>
+</head>
+<body>
+    <h1 style="color:purple">Last CSS</h1>
+    <div>this is a box</div>
+</body>
+</html>

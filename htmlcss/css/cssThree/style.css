@@ -1,0 +1,29 @@
+/* .navbar{
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+li{
+    list-style-type:none ;
+    background-color: aqua;
+    display: inline;
+
+} */
+#boxo{
+    background-color:black;
+    height: 100px;
+    width: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#boxt{
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+}

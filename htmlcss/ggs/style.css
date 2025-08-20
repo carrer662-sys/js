@@ -1,0 +1,106 @@
+h1{
+    color: rgb(53, 7, 97);
+}
+label{
+    color:rgb(209, 136, 209);
+    font-size: large;
+}
+input[type="text"]
+{
+    background-color: blueviolet;
+    
+}
+input[type="text"]::placeholder{
+    color: aliceblue;
+}
+a[href]{
+    color: palevioletred;
+}
+a[href^="https"]{
+    color: blue;
+}
+a[href$=".pdf"]{
+    color: aqua;
+}
+a[href*="google"]{
+    color: chartreuse;
+}
+
+div strong{
+    color: blueviolet;
+}
+div>h3{
+    color: brown;
+}
+h3+p{
+    color: blue;
+}
+h3 ~ h4{
+    color: coral;
+}
+h5,h6{
+    color: crimson;
+}
+input[type="email"]:hover{
+    background-color: blueviolet;
+}
+a[href="https://www.google.com"]:visited{
+    color: rgb(255, 0, 0);
+}
+
+input[type="checkbox"]:checked + label{
+color:blueviolet;
+}
+input[type="checkbox"]:checked + label{
+    color: blue;
+}
+li:nth-child(2){
+    color: blueviolet;
+}
+#idk::first-letter{
+color: cadetblue;
+font-size: 5em;
+text-transform: capitalize;
+text-decoration:underline;
+
+}
+#idk::after{
+    content:"how are you";
+}
+body{
+    background-image: url("image.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position:sticky;
+    top: 20px;
+    left: 10px;
+    z-index: -4;
+    }
+
+    #box2{
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        position:absolute;
+        z-index: -1;
+    }
+    h2 + h3{
+        color: palevioletred;
+    }
+    #center
+    {
+        width: 700px;
+        height: 100px;
+        background-color: blueviolet;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }

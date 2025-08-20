@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form action="/action_page.php" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your Name">
+        <br>
+        <br>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="pass" placeholder="Enter your Password">
+        <br>
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter you Email">
+        <br><br>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age">
+        <p>Gender</p>
+        <input type="radio" id="male" name="gender" value="M">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="F">
+        <label for="female">Female</label>
+        <br>
+        <br>
+        <input type="checkbox" id="course1" name="course1" value="MERN">
+        <label for="course1">I know MERN</label> <br>
+        <input type="checkbox" id="course2" name="course2" value="Devops">
+        <label for="course2">I know Devops</label> <br>
+        <input type="checkbox" id="course3" name="course3" value="CC">
+        <label for="course3">I know Cloud Computing</label> <br>
+        <br>
+        <br>
+        <label for="cars">Choose a Car</label>
+        <select name="cars" id="cars">
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+            <option value="ferrari" selected>Ferrari</option>
+            <option value="mercedes">Mercedes</option>
+        </select>
+        <br>
+        <br>
+        <label for="color">Choose a Color</label>
+        <input type="color" name="color" id="color">
+        <br>
+        <br>
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date">
+        <br>
+        <br>
+        <label for="dateandtime">Date and Time</label>
+        <input type="datetime-local" name="datetime" id="dateandtime">
+        <br>
+        <br>
+        <label for="range">Range</label>
+        <input type="range" name="range" id="range">
+        <br>
+        <br>
+        <label for="file">Upload an Image</label>
+        <input type="file" id="file" name="upload" accept="image/*">
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+        <br>
+        <br>
+        <input type="submit">
+        <input type="" name="" id="">
+    </form>
+    <!-- inline-level vs block-level elements -->
+    <!-- Semantic vs non-semantic elements -->
+</body>
+
+</html>

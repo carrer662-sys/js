@@ -1,0 +1,53 @@
+#container {
+    background-color: rgb(229, 5, 117);
+    display: inline;
+}
+button{
+    display: block;
+}
+.containers{
+    background-color: rgb(0, 0, 255,0.5);
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+#box{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    /* display:none; */
+display: inline-block;
+visibility:hidden;
+}
+
+#rel{
+    width: 100px;
+    height: 100px;
+    font-size: 10px;
+    background-color: blueviolet;
+}
+#ative{
+    /* width: 30%; */
+    /* width:5em ; */
+    /* width: 5rem; */
+    width: 100vw;
+    height: 50px;
+    margin-left: 30%;
+    font-size: 2em;
+    background-color: rgb(226, 43, 119);
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+#mov{
+    position: relative;
+    top: 10px;
+}

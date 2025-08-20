@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+}
+p{
+    color: white;
+}
+
+.textColor{
+    color: rgb(255, 145, 0);
+}
+
+#para{
+    color: brown;
+}
+h4 {
+    color: aqua;
+}
+#idPara{
+    color: chartreuse;
+}
+.classS{
+    color:crimson;
+}
+/* a[href] {
+    color:greenyellow;
+}
+
+a[href*="chatgpt"]{
+    color: rgb(108, 24, 46);
+}
+
+a[href="https://www.facebook.com"] {
+    color: darkblue;
+} */
+
+/* a[href^="https"]
+ {
+color:red;
+ } */
+
+/* a[href] {
+    color: cyan;
+ } */
+label {
+    color: aliceblue;
+}
+input[type="text"]
+{
+    background-color: blue;
+}  
+
+/* a[href^="https"]
+{
+    background-color: blueviolet;
+}  */
+a[href$=".pdf"] { 
+    color: brown;
+} 
+
+a[href*="google"] {
+    color:chocolate;
+}
+b,strong,.emphasis{
+    color: aliceblue;
+}
+
+/* div strong {
+    color:rgb(220, 2, 38);
+} */
+/* div > strong {
+    color:rgb(220, 2, 38);
+} */
+/* section strong {
+    color: blueviolet;
+} */
+
+/* p + section {
+    color: blue;
+} */
+
+/* p ~ section {
+    background-color: yellow;
+} */
+/* Hover */
+#turnPink:hover {
+    background-color: rgb(210, 57, 83);
+    
+}
+p {
+    color: aliceblue;
+}
+
+/* Visited link */
+a:visited {
+    color: gold;
+}
+
+input[type="email"]:focus {
+   background-color:aqua;
+}
+#nChild {
+    background-color: aliceblue;
+}
+/* 1. Odd items */
+li:nth-child(odd) {
+    background-color: aqua;
+}
+/* 2. Even items */
+li:nth-child(even)
+{
+    background-color: blueviolet;
+}
+
+/* 3. Exact 3rd item */
+li:nth-child(3){
+    background-color: brown;
+}
+
+/* 4.Every 3rd item */
+li:nth-child(3n) {
+    background-color: chartreuse;
+}
+/* Every 2nd item same as even */
+li:nth-child(2n)
+{
+    background-color: crimson;
+}
+
+/* 6. From 4th item onward */
+li:nth-child(n+4){
+    background-color: darkred;
+}
+
+ul li:nth-child(2n+1) {
+    background-color: yellow;
+}
+
+

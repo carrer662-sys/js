@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS DAY 1</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+      p {
+            color:blue;
+        }
+    </style> -->
+</head>
+<body>
+    <!-- <p style="color: blueviolet;">This is in line styling</p>     -->
+     <!-- <p>This internal styling</p> -->
+      <p>This is external styling</p>
+<!-- There are 2 major attributes -->
+ <!-- class and id -->
+  <p class="textColor">I'm using class attribute</p>
+  <p class="textColor">I'm using class attribute here too</p>
+  <p id="para">I'm using id attribute here</p>
+  <!-- 1. Element selector -->
+   <h4>I'm using Element Selector</h4>
+   <!-- 2. Id selector -->
+    <p id="idPara">I'm using Id Selector</p>
+    <!-- 3. Class Selector -->
+     <h5 class="classS">I'm using Class Selector</h5>
+     <h6 class="classS">I'm using class Selector here too</h6>
+     <!-- 4. Attribute Selector -->
+      <!--1. [attr]  -->
+     <a href="https://www.google.com">Google</a>
+     <br>
+      <a href="https://www.youtube.com">YouTube</a>
+      <br>
+      <a href="https://www.chatgpt.com">Chatgpt</a>
+      <br>
+      <a href="https://www.facebook.com">Facebook</a>
+      <br>
+<!-- 2. [attr="value"] -->
+ <label for="name">Name</label>
+ <input type="text" id="name" name="username" placeholder="Enter your Name">
+ <!-- 3. [attr^="https"]  -->
+  <br>
+  <a href="https://whatsapp.com">whatsapp</a>
+  <!-- 4. [attr$="value"] -->
+   <br>
+   <a href="file.pdf">PDF</a>
+   <br>
+   <!-- 5. [attr*="value"] -->
+    <!-- Up -->
+
+    <!-- 5. Grouping Selector -->
+     <b>I'm applying grouping to b and strong</b>
+     <br>
+     <strong>This is my bold text</strong>
+     <br>
+     <!-- another way is through class and also we can use tag and also class along with it -->
+      <!-- We use attribute rarely -->
+      <em class="emphasis">In here,I'm using class</em>
+      <!-- 6. Descendant Selector -->
+       <!-- 7. and Sibling Selector -->
+        <div> <!--parent -->
+        <p>This is a child</p>
+        <section> 
+            <!-- Lorem ipsum dolor sit amet. -->
+            <!-- grandchild -->
+            <strong>This is a Descendant Selector</strong> 
+            <!-- grandgrandchild -->
+        </section>
+       </div>
+        <!-- Hover -->
+       <div id="turnPink">
+        <p>This turns pink when you hover on it</p>
+       </div>
+       <!-- Visited -->
+        <a href="https://www.snapchat.com/">Snapchat</a>
+<br>
+<label for="email">Email</label>
+<input type="email" id="email" name="userPass" >
+<!-- nth-child() -->
+ <div id="nChild">
+ <h2>nth-child()</h2>
+ <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+    <li>Item 6</li>
+    <li>Item 7</li>
+    <li>Item 8</li>
+ </ul>
+ </div>
+</body>
+</html>
