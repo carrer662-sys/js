@@ -195,3 +195,102 @@
 //  userNo = 7;
 // }
 // console.log("right");
+
+// let str = "abcd";
+// str = str.toUpperCase()
+// console.log(str);
+
+// let upp = "efgh";
+// let t = upp.toUpperCase()
+// console.log(upp);
+// console.log(t);
+
+// let a = "ABCDEFGH";
+// let b = "Fatima";
+// console.log(`Hi ${a} and \n ${b}`);
+// console.log(a.slice(1, 4));
+// console.log(a.concat(b));
+// console.log(a.search("C"));
+// console.log(a.replace("C", "s"));
+// console.log(a.charAt(0));
+// let fname = "fayaforcode";
+// let username = "@" + fname + fname.length;
+// console.log(username);
+
+//arrays
+
+// let marks = [10, 20,30, 40];
+// marks[1] = 66;
+// console.log(marks);
+// console.log(marks[1]);
+
+//for loop
+// let marks = [10, 20, 30, 40, 50];
+// for( let i = 0; i < marks.length; i++) {
+//     console.log(marks[i]);    
+// }
+
+//for of loop
+
+// let countries= ["india", "china", "pak", "ksa", "usa"];
+// for ( let country of countries) {
+//     console.log(country);
+    
+// }
+
+// let marks = [10, 20, 30, 40];
+// let sum = 0;
+// for (let val of marks) {
+//     sum += val;
+// }
+// let avg = sum / marks.length;
+// console.log(`avg marks ${avg}`);
+
+// let items = [234, 555, 333, 545, 433];
+// let i = 0;
+// for (let val of items) {
+//     let offer = val /10;
+//     items[i] = items[i] - offer;
+//     console.log(`after offer ${items}`);
+//     i++;
+// }
+
+// let items = [223, 443, 444, 665, 435];
+// for (let i = 0; i < items.length; i++){
+//     let offer = items[i] / 10;
+//     items[i] -= offer;
+// }
+// console.log(items);
+
+let itemss = ["A", "B", "C", "D"]
+let itemsq = ["E", "F", "G", "H"]
+let itemsa = ["I", "J", "K", "L"]
+// items.push("E");
+// console.log(items);
+// let deleted = items.pop();
+// console.log(deleted);
+// console.log(items.toString());
+// let items = itemss.concat(itemsq, itemsa);
+// console.log(items);
+// itemsa.unshift("f");
+// let val =itemsa.shift();
+// console.log(itemsa);
+// console.log(val);
+//  let f = itemsa.slice(1,4);
+// console.log(f);
+
+// itemsa.splice(1,2,22,22);
+// console.log(itemsa);
+
+let comp = [ "ama", "micro", "google", "ibm"]
+comp.shift(0)
+comp.splice(2,1, "ola")
+comp.push("amazon")
+console.log(comp);
+
+
+
+
+
+
+
